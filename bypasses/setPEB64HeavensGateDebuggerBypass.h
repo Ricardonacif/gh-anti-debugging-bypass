@@ -1,3 +1,5 @@
+extern "C" void bypass_peb_64( );
+
 void setPEB64HeavensGateDebuggerBypass() {
-    //TBD
+    bypass_peb_64();
 }

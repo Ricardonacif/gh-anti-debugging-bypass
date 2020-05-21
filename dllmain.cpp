@@ -23,7 +23,7 @@ DWORD WINAPI AntiAntiDebugThread(HMODULE hModule)
     bypassCreateToolhelp32Snapshot();
     bypassCheckRemoteDebuggerPresent();
     bypassUnhandledExceptionMethod();
-    setPEB64HeavensGateDebuggerBypass(); //TO BE DONE
+    setPEB64HeavensGateDebuggerBypass();
     
     return 0;
 }
